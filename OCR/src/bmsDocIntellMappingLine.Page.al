@@ -152,28 +152,6 @@ page 70007 "bmsDoc. Intell. Mapping Line"
 
         CurrPage.Update(false);
 
-        /*
-        Clear(columnCaption);
-        Clear(columnValues);
-        TempbmsDocIntelligenceMapping.Reset();
-        TempbmsDocIntelligenceMapping.SetRange("Field Type", 'Line');
-        if TempbmsDocIntelligenceMapping.FindSet() then
-            repeat
-                if lineNo = TempbmsDocIntelligenceMapping."Line No." then begin
-                    noOfColumns := noOfColumns + 1;
-                    lineNo := TempbmsDocIntelligenceMapping."Line No.";
-                    columnCaption[noOfColumns] := TempbmsDocIntelligenceMapping."Field Name";
-                    columnValues[noOfColumns] := TempbmsDocIntelligenceMapping."Field Value";
-                end else begin
-                    noOfColumns := noOfColumns + 1;
-                    lineNo := TempbmsDocIntelligenceMapping."Line No.";
-                    columnCaption[noOfColumns] := TempbmsDocIntelligenceMapping."Field Name";
-                    columnValues[noOfColumns] := TempbmsDocIntelligenceMapping."Field Value";
-                end;
-
-            until TempbmsDocIntelligenceMapping.Next() = 0;
-        CurrPage.Update(false);
-        */
 
     end;
 
