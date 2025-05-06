@@ -60,8 +60,8 @@ table 70001 "bmsBlob Storage Documents"
         fileUrlCompose: Text;
     begin
         AccountAccessKey := 'your key';
-        AccountName := 'solerbc';
-        AccountContainer := 'soleredi';
+        AccountName := 'Your account name';
+        AccountContainer := 'Your container name';
         fileUrlCompose := strSubstNo(fileUrlComposeLbl, AccountName, AccountContainer);
         Authorization := StorageServiceAuthorization.CreateSharedKey(AccountAccessKey);
         ABSBlobClient.Initialize(AccountName, AccountContainer, Authorization);
