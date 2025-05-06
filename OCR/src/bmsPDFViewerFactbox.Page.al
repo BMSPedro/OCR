@@ -43,8 +43,8 @@ page 70002 "bmsPDF Viewer Factbox"
         PDFAsTxt: Text;
     begin
         AccountAccessKey := 'your key';
-        AccountName := 'solerbc';
-        AccountContainer := 'soleredi';
+        AccountName := 'Your account';
+        AccountContainer := 'Your container';
         fileUrlCompose := strSubstNo(fileUrlComposeLbl, AccountName, AccountContainer);
         Authorization := StorageServiceAuthorization.CreateSharedKey(AccountAccessKey);
         ABSBlobClient.Initialize(AccountName, AccountContainer, Authorization);
