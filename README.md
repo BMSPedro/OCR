@@ -1,4 +1,4 @@
-<script src="https://rawcdn.githack.com/oscarmorrison/md-page/master/md-page.js"></script><noscript>
+
 Table of contents
 
 ###1	Another AI experience in Business Central
