@@ -59,7 +59,7 @@ table 70001 "bmsBlob Storage Documents"
         fileUrlComposeLbl: Label 'https://%1.blob.core.windows.net/%2/', Comment = '%1 = AccountName, %2 = AccountContainer';
         fileUrlCompose: Text;
     begin
-        AccountAccessKey := 'x5e70oCNv5DWA2gRJK6rBJgr7TdtduKfkr3yK1GhwIpPU3pwCWDApxq1+aSX1av+LC0Jns7X7qCL+ASt9xjpIQ==';
+        AccountAccessKey := 'your key';
         AccountName := 'solerbc';
         AccountContainer := 'soleredi';
         fileUrlCompose := strSubstNo(fileUrlComposeLbl, AccountName, AccountContainer);
