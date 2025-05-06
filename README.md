@@ -2,16 +2,23 @@ Table of contents
 
 1	Another AI experience in Business Central
 
-#2	Functional flow resume
+2	Functional flow resume
 
-3	Feature in action	4
-4	Functional flow in detail	4
-4.1	Step 1. Email	4
-4.2	Logic Apps	5
-4.3	Azure Stockage Account	5
-4.4	Business Central file recovery from Blob Storage	7
-4.5	Azure Document Intelligence Instance	8
-4.6	Business Central interacts with an AI model to understand the document type and perform matching	12
+3	Feature in action
+
+4	Functional flow in detail
+
+4.1	Step 1. Email
+
+4.2	Logic Apps
+
+4.3	Azure Stockage Account
+
+4.4	Business Central file recovery from Blob Storage
+
+4.5	Azure Document Intelligence Instance
+
+4.6	Business Central interacts with an AI model to understand the document type and perform matching
 
  
 1	  Another AI experience in Business Central
