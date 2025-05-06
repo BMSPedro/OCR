@@ -23,8 +23,8 @@ codeunit 70001 "bmsSecrets And Cap Sep Intern"
                       Enum::"Copilot Capability"::"Document Intelligence",
                       Enum::"Copilot Availability"::Preview, '');
 
-        IsolatedStorage.Set('Endpoint', 'https://bmsaistudio7111399702.openai.azure.com/');
+        IsolatedStorage.Set('Endpoint', 'https://your model.openai.azure.com/');
         IsolatedStorage.Set('Deployment', 'gpt-4');
-        IsolatedStorage.Set('Apikey', '305b2a2ed77f4565af9e27bab3cc87c8');
+        IsolatedStorage.Set('Apikey', 'Your key');
     end;
 }
